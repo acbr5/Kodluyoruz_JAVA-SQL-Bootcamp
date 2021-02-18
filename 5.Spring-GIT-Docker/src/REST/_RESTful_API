@@ -1,0 +1,18 @@
+REST, genellikle istemci sunucu arasındaki ilişkinin HTTP protokolü sayesinde daha kolay bir şekilde yapılmasını sağlayan bir mimaridir ve çok kullanılır.
+Sunucuya bir URI üzerinden GET isteğinde bulunulur. Bir cevap döner ve bunun URI ile yapılabilmesini sağlayan bir mimaridir.
+
+Amaç direkt servisler üzerindeki işlemi daha genişletilebilir kolaylıkta ve daha basit şekilde yapılabilmesini ve veri akışının en az yükle gerçekleştirilebilmesini sağlamaktır.
+Esnek bir yapıya sahiptir.
+
+RESTful servislerini kullanırken HTML, XML, JSON gibi birçok dosya formatı ile çalışılabilir.
+JSON'ı yönetmek ve okumak daha kolay olduğu için genellikle JSON tercih edilir.
+
+Bir servisin RESTful olması için HTTP protokolü kullanmalı, stateless olmalı ve cachable (önbelleklenebilir) olmalıdır.
+Cachable olma özelliğine Twitter gibi platformlarda indirilen resimlerin Internet kapalıyken bile görünüyor olması olabilir. Yani HTTP ile sunucudan gelen cevaplar istemci tarafinda önbelleğe alınabilir ve katmanlı sistem olmalıdır.
+
+Katmanlı Sistem: Genellikle istemcinin sunucuda nereye bağlandığını görememesi gerekmektedir.
+
+SOAP mimarisi RESTful'a göre daha güvenlidir fakat RESTful daha esnek ve geliştirilmesi daha kolaydır.
+Spring Security RESTful hakkında güzel çözümler sunmaktadır.
+
+

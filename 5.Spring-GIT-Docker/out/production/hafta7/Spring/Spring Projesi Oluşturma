@@ -1,0 +1,37 @@
+
+- https://start.spring.io/ web sitesine gidilir.
+
+- Maven ve Gradle, bağımlılıkları yöneten araçlardır.
+
+- Uygulama bilgileri girilir:
+  com.demo
+  com.sirket_adi
+
+- Dependencies, uygulamadaki bağımlılıkları, paketleri temsil eder.
+
+- Dependencies kısmından Spring Web, Spring Data JPA, PostgreSQL Driver ve Lombok bağımlılıklarını ilk projemiz için ekledik. Daha sonra bunlar üzerinde düzenleme yapılabilir.
+
+- Generate edilerek dosya indirilir.
+
+- İndirilen sıkıştırılmış dosya dışarı aktarılarak derleyicide açılır. (spring-demo isimli klasörde kodlar bulunmaktadır.)
+
+
+SPRING:
+
+- .mvn bağımlıkları yöneten araçtır.
+
+- src programın kaynağını temsili eder.
+
+- target, program derendikten sonra oluşan sınıfları içerir fakat biz geliştirme yaparken src/main kısmı ile ilgileneceğiz.
+
+- src/resources/application.properties kısmında genellikle uygulama için başlangıç ayarları yapılır.
+Örneğin uygulama için sabit olması istenilen belli özelliklerin tanımı, Spring'in kendi ayarları, veritabanının bağlantı tanımı gibi uygulamaya dair özellikler burada belirtilir.
+
+- src/resources/templates kısmında görsel olarak yapılacak şeyler burada yer alır. Thymeleaf bağımlılığı kullanılarak ön-yüz geliştirmesi yapılabilir.
+
+- pom.xml dosyasında bağımlılıklar bulunur.
+
+-
+
+
+

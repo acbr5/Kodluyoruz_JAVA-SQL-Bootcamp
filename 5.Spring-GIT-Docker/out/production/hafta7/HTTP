@@ -1,0 +1,22 @@
+// HTTP (Hyper Text Transfer Protocol), bir uygulama katmanı protokolüdür.
+Bu protokol üzerinden web sayfalarındaki dosyaları görüntüleyebiliyoruz.
+İstemci-sunucu modelini takip eder. İstemci sunucuya istek gönderir ve sunucudan bu isteğe karşı bir cevap alınır.
+HTTP stateless (durumsuz) bir protokoldür. İstemciden gelen durumları kaydetmez. Bunun için cookie'ler (çerezler) kullanılır.
+Çerezler daha iyi bir kullanıcı deneyimi sunar.
+
+// HTTP Header'ları
+İstemci ve sunucu arasında istemci ve sunucuya dair bilgi iletimi yapılmak isteniyorsa genellikle bu bilgiler Headr'lar ile iletilir.
+
+HTTP request
+method:GET
+path:/index.html
+
+HTTP response
+status:200
+content-type:text/html;
+
+// Sık kullanılan HTTP metotları
+GET: Sunucudan veri almak için kullanılır. GET kullanılırken yapılan sorgu direkt URL içerisinde gönderilir. Mevcut bir veriyi çekmek için GET kullanılır.
+POST: Sunucuya sıfırdan bir veri göndermek veya sunucu üzerinde bir işlem yapmak istenildiğinde kullanılır. Veriler Html dosyasında body içerisinde json formatında gönderilir. Gönderilen veri URL'de görünmez.
+PUT:  Sunucuda belirli bir kaynağa veri eklemek veya varolan bir veriyi güncellemek için genellikle PUT kullanılır. Kullanım şekli POST gibidir.
+DELETE: O sunucudaki veriyi silmek için kullanılır.
